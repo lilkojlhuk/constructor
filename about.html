@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css" />
+</head>
+<body class="main__body">
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar__wrap">
+                    <a href="./index.html" class="menu__logo">Constructor</a>
+                    <ul class="menu search">
+                        <li class="menu__item"><a href="#"><img src="./img/header-search.svg" alt=""></a></li>
+                        <input type="text" class="menu__search" placeholder="Search">
+                    </ul>
+                    <ul class="menu" id="menu">
+                        <li class="menu__item"><a href="./about.html" class="menu__item-link">About Us</a></li>
+                        <li class="menu__item"><a href="#" class="menu__item-link">Services</a></li>
+                        <li class="menu__item"><a href="#" class="menu__item-link">Reviews</a></li>
+                        <li class="menu__item"><a href="#" class="menu__item-link">Contacts</a></li>
+                    </ul>
+                    <ul class="menu">
+                        <li class="menu__item"><a href="#" class="menu__item-link">Get In Touch</a></li>
+                    </ul>
+                    <div class="burger">
+                        <div class="burger__field" id="burger">
+                            <span class="burger__field-bar bar"></span>
+                            <span class="burger__field-bar bar"></span>
+                            <span class="burger__field-bar bar"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="move" id="move"></div>
+    </header>
+    <main>
+        <!-- section hero-about -->
+        <section class="hero-about">
+            <div class="container">
+                <h1 class="hero-about__title">ABOUT US</h1>
+                <p class="hero-about__decsr">Construction Bureau Constructor has been successfully operating in the US construction market since 2000. We are proud to offer you quality construction and exemplary service.</p>
+            </div>
+        </section>
+                <!-- section info -->
+        <section class="info">
+            <div class="container">
+                <ul class="info__list">
+                    <li class="info__item">
+                        <img src="./img/info-like.png" alt="Image info one" class="info__item-img">
+                        <h2 class="info__item-title">60%</h2>
+                        <p class="info__item-descr">Clients on the recommendation of friends</p>
+                    </li>
+                    <li class="info__item">
+                        <img src="./img/info-painting.png" alt="Image info two" class="info__item-img">
+                        <h2 class="info__item-title">2400+</h2>
+                        <p class="info__item-descr">Apartments renovated</p>
+                    </li>
+                    <li class="info__item">
+                        <img src="./img/info-helmet.png" alt="Image info three" class="info__item-img">
+                        <h2 class="info__item-title">670</h2>
+                        <p class="info__item-descr">Qualified specialists</p>
+                    </li>
+                    <li class="info__item">
+                        <img src="./img/info-pantone.png" alt="Image info four" class="info__item-img">
+                        <h2 class="info__item-title">150000+ m2</h2>
+                        <p class="info__item-descr">Finishing work was carried out</p>
+                    </li>
+                </ul>
+                <ul class="founder__list">
+                    <li class="founder__item">
+                        <img src="./img/founder-photo.svg" alt="" class="founder__item-img">
+                    </li>
+                    <li class="founder__item">
+                        <h2 class="founder__item-descr">Dapibus nec vitae ante mattis. Aliquam phasellus ac dui augue in. Sed aliquet in egestas hac at proin sed quam. Etiam aliquet sagittis non, massa cum pulvinar. Et in leo, tempus purus vestibulum ut blandit et mi. Odio massa purus vel praesent arcu enim elit felis viverra.</h2>
+                        <h3 class="founder__item-subdescr">Magna aliquam interdum mattis ipsum arcu. Elit odio elit viverra quis metus amet eleifend amet. Vet suspendisse faucibus tempor ipsum integer.</h3>
+                        <p class="founder__item-name">Courtney Alexander</p>
+                        <p class="founder__item-subname">CEO - Constructor Construction Bureau </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- section values -->
+        <section class="values">
+            <div class="container">
+                <h2 class="values__title">Our core values</h2>
+                <p class="values__subtitle">Our mission is to set the highest standards for construction sphere.</p>
+                <ul class="values__list">
+                    <li class="values__item">
+                        <img class="values__item-img" src="./img/info-like.png" alt="values img like">
+                        <h3 class="values__item-title">Quality</h3>
+                        <p class="values__item-descr">Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
+                    </li>
+                    <li class="values__item">
+                        <img class="values__item-img" src="./img/values-protection.svg" alt="values img protection">
+                        <h3 class="values__item-title">Safety</h3>
+                        <p class="values__item-descr">Anim reprehenderit sint voluptate exercitation adipisicing laborum adipisicing. Minim empor est ea.</p>
+                    </li>
+                    <li class="values__item">
+                        <img class="values__item-img" src="./img/values-flipFlops.svg" alt="values img flip flops">
+                        <h3 class="values__item-title">Comfort</h3>
+                        <p class="values__item-descr">Sit veniam aute dolore adipisicing nulla sit culpa. Minim mollit voluptate ullamco proident ea ad.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- section steps -->
+        <section class="steps">
+            <div class="container">
+                <form class="steps__form">
+                    <div class="step__buttons">
+                        <button class="button prev__step"><img src="./img/steps-left.svg" alt=""></button>
+                        <button class="button next__step"><img src="./img/steps-right.svg" alt=""></button>
+                    </div>
+                    <div class="steps__numbers">
+                        <div class="progress">
+                            <div class="progress__success"></div>
+                        </div>
+                        <div class="step__number"><span>2000</span></div>
+                        <div class="step__number"><span>2001</span></div>
+                        <div class="step__number"><span>2004</span></div>
+                        <div class="step__number"><span>2007</span></div>
+                        <div class="step__number"><span>2010</span></div>
+                        <div class="step__number"><span>2019</span></div>
+                    </div>
+                    <div class="steps">
+                        <div class="form__step">In June 2000, our company was born out of a shared vision and a burning passion for innovation. With a small team of dedicated individuals, we set out on a mission to make a lasting impact in the tech industry. Armed with determination and a commitment to excellence, we began developing groundbreaking solutions that would shape the future.</div>
+                        <div class="form__step">By October 2001, our company had made significant strides forward. We had gained recognition for our innovative products and services, earning the trust of clients and partners alike. Our team grew, bringing together brilliant minds from diverse backgrounds, all working towards a common goal of pushing boundaries and delivering exceptional results.</div>
+                        <div class="form__step">In May 2004, we celebrated a major milestone. Our continued dedication to innovation and customer satisfaction had propelled us to new heights. We had expanded our portfolio, offering a wide range of cutting-edge solutions that met the evolving needs of our clients. With a growing reputation for excellence, we became a trusted industry leader.</div>
+                        <div class="form__step">April 2007 marked a turning point in our company's history. We launched a groundbreaking product that disrupted the market and changed the way people interacted with technology. Our visionary approach and relentless pursuit of excellence paid off, as our solution garnered widespread acclaim and set new industry standards.</div>
+                        <div class="form__step">By August 2010, our company had become a global player. We expanded our operations internationally, opening offices in strategic locations around the world. Embracing cultural diversity and harnessing the power of collaboration, we leveraged our expertise to serve clients on a global scale. Our commitment to delivering innovative solutions remained unwavering.</div>
+                        <div class="form__step">In March 2019, we celebrated a milestone anniversary. Reflecting on our journey, we took pride in the impact we had made. With an unwavering commitment to innovation, we remained at the forefront of technological advancements. We looked towards the future with excitement, ready to tackle new frontiers and create even greater success stories for our clients and partners.</div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- section team -->
+        <section class="team">
+            <div class="container">
+                <div class="team__texts">
+                    <h2 class="team__title">Our team</h2>
+                    <p class="team__descr">People are at the heart of Constructor Construction Bureau</p>
+                </div>
+                <ul class="team__list">
+                    <li class="team__item">
+                        <img src="./img/team-two.jpg" alt="Image team" class="team__item-img">
+                        <h2 class="team__item-title">Courtney Alexander</h2>
+                        <p class="team__item-descr">CEO, Co-Founder</p>
+                    </li>
+                    <li class="team__item">
+                        <img src="./img/team-one.png" alt="Image team" class="team__item-img">
+                        <h2 class="team__item-title">Calvin Fox</h2>
+                        <p class="team__item-descr">CTO, Co-Founder</p>
+                    </li>
+                    <li class="team__item">
+                        <img src="./img/team-three.png" alt="Image team" class="team__item-img">
+                        <h2 class="team__item-title">Johnny Lane</h2>
+                        <p class="team__item-descr">Commercial Manager</p>
+                    </li>
+                    <li class="team__item">
+                        <img src="./img/team-four.png" alt="Image team" class="team__item-img">
+                        <h2 class="team__item-title">Diane Mccoy</h2>
+                        <p class="team__item-descr">Director of Human Resources</p>
+                    </li>
+                    <li class="team__item">
+                        <img src="./img/team-eight.png" alt="Image team" class="team__item-img">
+                        <h2 class="team__item-title">Judith Warren</h2>
+                        <p class="team__item-descr">Lead Accountant</p>
+                    </li>
+                    <li class="team__item">
+                        <img src="./img/team-five.png" alt="Image team" class="team__item-img">
+                        <h2 class="team__item-title">Floyd Simmmons</h2>
+                        <p class="team__item-descr">Finacial Director</p>
+                    </li>
+                    <li class="team__item">
+                        <img src="./img/team-six.png" alt="Image team" class="team__item-img">
+                        <h2 class="team__item-title">Serenity Edwards</h2>
+                        <p class="team__item-descr">Director of Marketing</p>
+                    </li>
+                    <li class="team__item">
+                        <img src="./img/team-seven.png" alt="Image team" class="team__item-img">
+                        <h2 class="team__item-title">Shawn Edwards</h2>
+                        <p class="team__item-descr">Tech Lead</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- section map -->
+        <section class="map">
+            <div class="container">
+                <h6 class="map__title">We work worldwide</h6>
+                <img class="map__img" src="./img/map-world.png" alt="map world">
+            </div>
+        </section>
+        <!-- section footer -->
+        <footer class="section footer">
+            <div class="container">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="./index.html" class="footer__logo">Constructor</a>
+                    </li>
+                    <li class="footer__item">
+                        <ul class="footer__sublist">
+                            <li class="footer__subitem">
+                                <a class="footer__link" href="#">Home</a>
+                                <a class="footer__link" href="#">About</a>
+                            </li>
+                            <li class="footer__subitem">
+                                <a class="footer__link" href="#">Gallery</a>
+                                <a class="footer__link" href="#">Barbers</a>
+                            </li>
+                            <li class="footer__subitem">
+                                <a class="footer__link" href="#">Services</a>
+                                <a class="footer__link" href="#">Contacts</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer__item stars">
+                        <img class="footer__stars" src="./img/footer__stars.png" alt="Image stars">
+                        <p class="footer__count">5.244 Satisfied Сustomers</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__line"></div>
+            <div class="container">
+                <ul class="footer__lastlist">
+                    <li class="footer__lastitem">
+                        <p class="footer__protected">© 2030 Comapny. All Rights Reserved.</p>
+                    </li>
+                    <li class="footer__lastitem">
+                        <a class="footer__lastitem-link" href="#">Terms</a>
+                        <a class="footer__lastitem-link" href="#">Privacy</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </main>
+</body>
+<script src="js/scripts.min.js"></script>
+</html>

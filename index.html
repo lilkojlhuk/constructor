@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css" />
+</head>
+<body class="main__body">
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar__wrap">
+                    <a href="./index.html" class="menu__logo">Constructor</a>
+                    <ul class="menu search">
+                        <li class="menu__item"><a href="#"><img src="./img/header-search.svg" alt=""></a></li>
+                        <input type="text" class="menu__search" placeholder="Search">
+                    </ul>
+                    <ul class="menu" id="menu">
+                        <li class="menu__item"><a href="./about.html" class="menu__item-link">About Us</a></li>
+                        <li class="menu__item"><a href="#" class="menu__item-link">Services</a></li>
+                        <li class="menu__item"><a href="#" class="menu__item-link">Reviews</a></li>
+                        <li class="menu__item"><a href="#" class="menu__item-link">Contacts</a></li>
+                    </ul>
+                    <ul class="menu">
+                        <li class="menu__item"><a href="#" class="menu__item-link">Get In Touch</a></li>
+                    </ul>
+                    <div class="burger">
+                        <div class="burger__field" id="burger">
+                            <span class="burger__field-bar bar"></span>
+                            <span class="burger__field-bar bar"></span>
+                            <span class="burger__field-bar bar"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="move" id="move"></div>
+    </header>
+    <main>
+        <!-- section hero -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <a class="hero__link" href="#">REAL ESTATE</a>
+                    <h1 class="hero__title">Invest on Real Estate with</h1>
+                    <h2 class="hero__subtitle">Our Company</h2>
+                    <ul class="hero__list">
+                        <li class="hero__item">
+                            <img class="hero__img" src="./img/hero-address.png" alt="Image address">
+                            <p class="hero__contact">225 S 1st St Brooklyn, NY 11211</p>
+                        </li>
+                        <li class="hero__item">
+                            <img class="hero__img" src="./img/hero-phone.png" alt="Image phone">
+                            <a class="hero__contact" href="tel: +380 (66) --- -- 37">+380 (929) 356-0147</a>
+                        </li>
+                        <li class="hero__item">
+                            <img class="hero__img" src="./img/hero-mail.png" alt="Image email address">
+                            <a class="hero__contact" href="mailto: hotel@gmail.com">hotel@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- section about -->
+        <section class="section about">
+            <div class="container">
+                <a class="description about">OUR STORY</a>
+                <h2 class="background-text">OUR STORY</h2>
+                <p class="about__descr">Real estate is "property consisting of land and the buildings on it, along with its natural resources such as crops, minerals or water, immovable property of this nature; an interest vested in this (also) an item of real property, (more generally) buildings or housing in general.</p>
+                <ul class="about__list">
+                    <li class="about__item">
+                        <p class="about__text">15 Years</p>
+                        <p class="about__subtext">In Business</p>
+                    </li>
+                    <li class="about__item">
+                        <p class="about__text">$1 Billion</p>
+                        <p class="about__subtext">Property Brokered</p>
+                    </li>
+                    <li class="about__item">
+                        <p class="about__text">10,000</p>
+                        <p class="about__subtext">Transactions</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- section services -->
+        <section class="section services">
+            <div class="container">
+                <a class="description services">SERVICES</a>
+                <h2 class="background-text">SERVICES</h2>
+                <p class="services__descr">We have developed a unique space where you can work and create. We thought of everything to the smallest detail. You will be able to conduct your business, conduct meetings, meetings</p>
+                <ul class="services__list">
+                    <li class="services__item">
+                        <img class="services__img" src="./img/services-house.png" alt="Image house">
+                        <p class="services__text">House</p>
+                    </li>
+                    <li class="services__item">
+                        <img class="services__img" src="./img/services-appartament.png" alt="Image appartament">
+                        <p class="services__text">Appartament</p>
+                    </li>
+                    <li class="services__item">
+                        <img class="services__img" src="./img/services-office.png" alt="Image services">
+                        <p class="services__text">Office</p>
+                    </li>
+                    <li class="services__item">
+                        <img class="services__img" src="./img/services-warehouse.png" alt="Image warehouse">
+                        <p class="services__text">Warehouse</p>
+                    </li>
+                    <li class="services__item">
+                        <img class="services__img" src="./img/services-parking.png" alt="Image parking">
+                        <p class="services__text">Parking</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- section deals -->
+        <section class="section deals">
+            <div class="container">
+                <a class="description deals">DEALS</a>
+                <h2 class="background-text">DEALS</h2>
+                <p class="deals__descr">Real estate is "property consisting of land and the buildings on it, along with its natural resources such as crops, minerals or water, immovable property of this nature</p>
+            </div>
+        </section>
+        <!-- section slides -->
+        <section class="section slides">
+            <div class="container">
+                <div class="tabs">
+                    <div class="tabs__header">
+                        <div class="tabs__header-item" data-tab="#tab1">House</div>
+                        <div class="tabs__header-item" data-tab="#tab2">Appartament</div>
+                        <div class="tabs__header-item" data-tab="#tab3">Office</div>
+                        <div class="tabs__header-item" data-tab="#tab4">Warehouse</div>
+                        <div class="tabs__header-item" data-tab="#tab5">Parcing</div>
+                    </div>
+                    <div id="tab1" class="tabs__content-item">  
+                        <ul class="tabs__list">
+                            <li class="tabs__item down">
+                                <img class="tabs__img" src="./img/tabs__house-one.png" alt="Image modern glass house">
+                                <div class="tabs__info">
+                                    <h2 class="tabs__title">Modern Glass House</h2>
+                                    <p class="tabs__price">$ 1,625,000</p>
+                                    <p class="tabs__address">14 Patrick Brem Ct. Mahwah, NJ07430</p>
+                                    <p class="tabs__conditions">3 Beds  -  2 baths  -  3,450 sqft</p>
+                                </div>
+                            </li>
+                            <li class="tabs__item center">
+                                <img class="tabs__img" src="./img/tabs__house-two.png" alt="Image house on the lake">
+                                <div class="tabs__info">
+                                    <h2 class="tabs__title">House on the Lake</h2>
+                                    <p class="tabs__price">$ 225,000</p>
+                                    <p class="tabs__address">14 Patrick Brem Ct. Mahwah, NJ07430</p>
+                                    <p class="tabs__conditions">3 Beds  -  2 baths  -  3,450 sqft</p>
+                                </div>
+                            </li>
+                            <li class="tabs__item down">
+                                <img class="tabs__img" src="./img/tabs__house-three.png" alt="Image house in the center">
+                                <div class="tabs__info">
+                                    <h2 class="tabs__title">House in the center</h2>
+                                    <p class="tabs__price">$ 225,000</p>
+                                    <p class="tabs__address">14 Patrick Brem Ct. Mahwah, NJ07430</p>
+                                    <p class="tabs__conditions">2 Beds  -  1 baths  -  2,300 sqft</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="tab2" class="tabs__content-item">
+                        <ul class="tabs__list">
+                            <li class="tabs__item down">
+                                <img class="tabs__img" src="./img/tabs-appartament-one.png" alt="Image townhouse in the center">
+                                <div class="tabs__info">
+                                    <h2 class="tabs__title">Flat in the center</h2>
+                                    <p class="tabs__price">$ 225,000</p>
+                                    <p class="tabs__address">14 Patrick Brem Ct. Mahwah, NJ07430</p>
+                                    <p class="tabs__conditions">2 Beds  -  1 baths  -  2,300 sqft</p>
+                                </div>
+                            </li>
+                            <li class="tabs__item center">
+                                <img class="tabs__img" src="./img/tabs-appartament-two.png" alt="Image flat in center city">
+                                <div class="tabs__info">
+                                <h2 class="tabs__title">Flat in Center City</h2>
+                                <p class="tabs__price">$ 225,000</p>
+                                <p class="tabs__address">14 Patrick Brem Ct. Mahwah, NJ07430</p>
+                                <p class="tabs__conditions">2 Beds  -  1 baths  -  2,300 sqft</p>
+                                </div>
+                            </li>
+                            <li class="tabs__item down">
+                                <img class="tabs__img" src="./img/tabs-appartament-three.png" alt="Image flat in center city">
+                                <div class="tabs__info">
+                                    <h2 class="tabs__title">Flat in Center City</h2>
+                                    <p class="tabs__price">$ 225,000</p>
+                                    <p class="tabs__address">14 Patrick Brem Ct. Mahwah, NJ07430</p>
+                                    <p class="tabs__conditions">2 Beds  -  1 baths  -  2,300 sqft</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="tab3" class="tabs__content-item">
+                        <ul class="tabs__list">
+                            <li class="tabs__item down">
+                                <img class="tabs__img" src="./img/tabs__office-one.jpg" alt="Image office in center city">
+                                <div class="tabs__info">
+                                    <h2 class="tabs__title">Office in Center City</h2>
+                                    <p class="tabs__price">$ 150,000</p>
+                                    <p class="tabs__address">14 Patrick Brem Ct. Mahwah, NJ07430</p>
+                                    <p class="tabs__conditions">1 baths  -  2,300 sqft</p>
+                                </div>
+                            </li>
+                            <li class="tabs__item center">
+                                <img class="tabs__img" src="./img/tabs__office-two.jpg" alt="Image office in center city">
+                                <div class="tabs__info">
+                                    <h2 class="tabs__title">Office in Center City</h2>
+                                    <p class="tabs__price">$ 150,000</p>
+                                    <p class="tabs__address">14 Patrick Brem Ct. Mahwah, NJ07430</p>
+                                    <p class="tabs__conditions">1 baths  -  2,300 sqft</p>
+                                </div>
+                            </li>
+                            <li class="tabs__item down">
+                                <img class="tabs__img" src="./img/tabs__office-three.jpg" alt="Image office in center city">
+                                <div class="tabs__info">
+                                    <h2 class="tabs__title">Office in Center City</h2>
+                                    <p class="tabs__price">$ 150,000</p>
+                                    <p class="tabs__address">14 Patrick Brem Ct. Mahwah, NJ07430</p>
+                                    <p class="tabs__conditions">1 baths  -  2,300 sqft</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="tab4" class="tabs__content-item">
+                        <ul class="tabs__list">
+                            <li class="tabs__item down">
+                                <img class="tabs__img" src="./img/tabs__warehouse-one.jpg" alt="Image warehouse outside the city">
+                                <div class="tabs__info">
+                                    <h2 class="tabs__title">Warehouse outside The City</h2>
+                                    <p class="tabs__price">$ 70,000</p>
+                                    <p class="tabs__address">14 Patrick Brem Ct. Mahwah, NJ07430</p>
+                                    <p class="tabs__conditions">5,300 sqft</p>
+                                </div>
+                            </li>
+                            <li class="tabs__item center">
+                                <img class="tabs__img" src="./img/tabs__warehouse-two.jpg" alt="Image warehouse outside the city">
+                                <div class="tabs__info">
+                                    <h2 class="tabs__title">Warehouse outside The City</h2>
+                                    <p class="tabs__price">$ 70,000</p>
+                                    <p class="tabs__address">14 Patrick Brem Ct. Mahwah, NJ07430</p>
+                                    <p class="tabs__conditions">5,300 sqft</p>
+                                </div>
+                            </li>
+                            <li class="tabs__item down">
+                                <img class="tabs__img" src="./img/tabs__warehouse-three.jpg" alt="Image warehouse outside the city">
+                                <div class="tabs__info">
+                                    <h2 class="tabs__title">Warehouse outside The City</h2>
+                                    <p class="tabs__price">$ 70,000</p>
+                                    <p class="tabs__address">14 Patrick Brem Ct. Mahwah, NJ07430</p>
+                                    <p class="tabs__conditions">5,300 sqft</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="tab5" class="tabs__content-item">
+                        <ul class="tabs__list">
+                            <li class="tabs__item down">
+                                <img class="tabs__img" src="./img/tabs__parcing-two.jpeg" alt="Image parcing in the center">
+                                <div class="tabs__info">
+                                    <h2 class="tabs__title">Parking in City Center</h2>
+                                    <p class="tabs__price">$ 50,000</p>
+                                    <p class="tabs__address">14 Patrick Brem Ct. Mahwah, NJ07430</p>
+                                    <p class="tabs__conditions">5,300 sqft</p>
+                                </div>
+                            </li>
+                            <li class="tabs__item center">
+                                <img class="tabs__img" src="./img/tabs__parcing-one.jpg" alt="Image parcing in the center">
+                                <div class="tabs__info">
+                                    <h2 class="tabs__title">Parking in City Center</h2>
+                                    <p class="tabs__price">$ 50,000</p>
+                                    <p class="tabs__address">14 Patrick Brem Ct. Mahwah, NJ07430</p>
+                                    <p class="tabs__conditions">5,300 sqft</p>
+                                </div>
+                            </li>
+                            <li class="tabs__item down">
+                                <img class="tabs__img" src="./img/tabs__parcing-three.jpg" alt="Image parcing in the center">
+                                <div class="tabs__info">
+                                    <h2 class="tabs__title">Parking in City Center</h2>
+                                    <p class="tabs__price">$ 50,000</p>
+                                    <p class="tabs__address">14 Patrick Brem Ct. Mahwah, NJ07430</p>
+                                    <p class="tabs__conditions">5,300 sqft</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section review -->
+        <section class="section review">
+            <div class="container">
+                <div class="review-link">
+                    <a class="description services">SERVICES</a>
+                </div>
+                <h2 class="background-text">SERVICES</h2>
+                <p class="review__descr">We have developed a unique space where you can work and create. We thought of everything to the smallest detail. You will be able to conduct your business, conduct meetings, meetings</p>
+                <ul class="review__list">
+                    <li class="review__item">
+                        <h4 class="review__text">Thank you very much for the house found. This is an ideal option for our family at the location and price. The company employs real professionals who will always</h4>
+                        <div class="review__contact">
+                            <img class="review__img" src="./img/review__avatar-one.png" alt="Image avatar one">
+                            <div>
+                                <p class="review__name">Herbert Lindsey</p>
+                                <p class="review__address">New York, USA</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="review__item">
+                        <h4 class="review__text">A gentleman from New York discovered what he calls an “oversight” on the part of 99.9% of all marketers that allows him to get otherwise paid-for advertising at Google.</h4>
+                        <div class="review__contact">
+                            <img class="review__img" src="./img/review__avatar-two.png" alt="Image avatar two">
+                            <div>
+                                <p class="review__name">Noah Russell</p>
+                                <p class="review__address">New York, USA</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="review__item">
+                        <h4 class="review__text">For many of us, our very first experience of learning about the celestial bodies begins when we saw our first full moon in the sky. It is truly a magnificent view even</h4>
+                        <div class="review__contact">
+                            <img class="review__img" src="./img/review__avatar-three.png" alt="Image avatar three">
+                            <div>
+                                <p class="review__name">Nellie Griffith</p>
+                                <p class="review__address">New York, USA</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- section instagram -->
+        <section class="section instagram">
+            <div class="container">
+                <a class="description instagram">INSTAGRAM</a>
+                <h2 class="background-text">INSTAGRAM</h2>
+                <div class="instagram__list">
+                    <img class="instagram__img" src="./img/instagram__img-one.png" alt="Instagram photo one">
+                    <img class="instagram__img" src="./img/instagram__img-two.png" alt="Instagram photo two">
+                    <img class="instagram__img" src="./img/instagram__img-three.png" alt="Instagram photo three">
+                    <img class="instagram__img" src="./img/instagram__img-four.png" alt="Instagram photo four">
+                    <img class="instagram__img" src="./img/instagram__img-five.png" alt="Instagram photo five">
+                    <img class="instagram__img" src="./img/instagram__img-six.png" alt="Instagram photo six">
+                    <img class="instagram__img" src="./img/instagram__img-seven.png" alt="Instagram photo seven">
+                    <img class="instagram__img" src="./img/instagram__img-eight.png" alt="Instagram photo eight">
+                </div>
+            </div>
+        </section>
+        <!-- section form -->
+        <section class="section forms">
+            <div class="container">
+                <div class="review-link">
+                    <a class="description services">CONTACTS</a>
+                </div>
+                <h2 class="background-text">IT TOUCH</h2>
+                <p class="forms__descr">We have developed a unique space where you can work and create. We thought of everything to the smallest detail. You will be able to conduct your business, conduct meetings, meetings</p>
+                <form class="forms__contacts">
+                    <div class="forms__input">
+                        <label class="forms__contacts-label">
+                            <input type="text" class="forms__contacts-input" placeholder="First Name">
+                        </label>
+                        <label class="forms__contacts-label">
+                            <input type="text" class="forms__contacts-input" placeholder="Last Name">
+                        </label>
+                        <label class="forms__contacts-label">
+                            <input type="text" class="forms__contacts-input" placeholder="Email Address">
+                        </label>
+                        <label class="forms__contacts-label">
+                            <input type="text" class="forms__contacts-input" placeholder="Phone Number">
+                        </label>
+                    </div>
+                    <label class="forms__contacts-label message">
+                        <input type="text" class="forms__contacts-input message" placeholder="Your Message">
+                    </label>
+                    <div class="forms__contacts-button">
+                        <a class="forms__contacts-btn" href="#">Send Request</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- section footer -->
+        <footer class="section footer">
+            <div class="container">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="./index.html" class="footer__logo">Constructor</a>
+                    </li>
+                    <li class="footer__item">
+                        <ul class="footer__sublist">
+                            <li class="footer__subitem">
+                                <a class="footer__link" href="#">Home</a>
+                                <a class="footer__link" href="#">About</a>
+                            </li>
+                            <li class="footer__subitem">
+                                <a class="footer__link" href="#">Gallery</a>
+                                <a class="footer__link" href="#">Barbers</a>
+                            </li>
+                            <li class="footer__subitem">
+                                <a class="footer__link" href="#">Services</a>
+                                <a class="footer__link" href="#">Contacts</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer__item stars">
+                        <img class="footer__stars" src="./img/footer__stars.png" alt="Image stars">
+                        <p class="footer__count">5.244 Satisfied Сustomers</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__line"></div>
+            <div class="container">
+                <ul class="footer__lastlist">
+                    <li class="footer__lastitem">
+                        <p class="footer__protected">© 2030 Comapny. All Rights Reserved.</p>
+                    </li>
+                    <li class="footer__lastitem">
+                        <a class="footer__lastitem-link" href="#">Terms</a>
+                        <a class="footer__lastitem-link" href="#">Privacy</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </main>
+</body> 
+<script src="js/scripts.min.js"></script>
+<script>tabs()</script>
+</html>
